@@ -23,6 +23,4 @@ img: {width:"100%" , height: 200},
 subT:{fontSize:20, color: '#000'}
 
 
-
-
 })

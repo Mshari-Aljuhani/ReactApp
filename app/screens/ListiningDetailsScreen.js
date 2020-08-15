@@ -6,11 +6,11 @@ import ListItem from '../components/ListItem'
 export default function ListiningDetailsScreen() {
     return (
         <View>
-            <Image style={styles.img} source={ require('C:/Users/Mshari/Desktop/ReactNative project/AwesomeProject2/AwesomeProject2/assets/t30.jpg')} /> 
+            <Image style={styles.img} source={ require('../../assets/t30.jpg')} /> 
             <Text style={styles.title}>العنوان</Text>
             <Text style={styles.subT}>كلام كلام كلام</Text>
             <ListItem 
-                image={require("C:/Users/Mshari/Desktop/ReactNative project/AwesomeProject2/AwesomeProject2/assets/logo.png")}
+                image={require("../../assets/logo.png")}
                 title="Mshari "
                 subTitle= " 5 Listing"
                 />

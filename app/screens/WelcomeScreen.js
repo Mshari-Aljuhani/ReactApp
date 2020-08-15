@@ -2,7 +2,6 @@ import React from 'react'
 import { StyleSheet, Text, View, ImageBackground, Image, Button, TouchableOpacity } from 'react-native'
 
 import AppText from 'C:/Users/Mshari/Desktop/ReactNative project/AwesomeProject2/AwesomeProject2/app/components/AppText.js';
-import Cards from '../components/Cards';
 export default function WelcomeScreen() {
     return (
 
@@ -12,7 +11,7 @@ export default function WelcomeScreen() {
     <View style={styles.logoCon}>
     <Text style={styles.WelText}>"Ready?{"\n"}let's take your size"</Text></View>
     
-    <TouchableOpacity style={styles.LoginButton}><Text style={styles.LoginText} onPress={() => <Cards/> } >تسجيل الدخول </Text></TouchableOpacity>
+    <TouchableOpacity style={styles.LoginButton}><Text style={styles.LoginText} onPress={() => console.log('login')} >تسجيل الدخول </Text></TouchableOpacity>
     <TouchableOpacity style={styles.RegButton}><Text style={styles.RegText} onPress={() => console.log('Regs')}> تسجيل </Text></TouchableOpacity>
     
 
