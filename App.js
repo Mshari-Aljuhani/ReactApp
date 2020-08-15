@@ -5,18 +5,16 @@ import ExpoStatusBar from 'expo-status-bar/build/ExpoStatusBar';
 import {useDimensions, useDeviceOrientation} from '@react-native-community/hooks';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 import Cards from './app/components/Cards';
+import ListiningDetailsScreen from './app/screens/ListiningDetailsScreen';
+import MessagesScreen from './app/screens/MessagesScreen';
 
 export default function App() {
     return (
-      <View style={styles.container}>
-      <Cards title="العنوان الاول" subTitle="العنوان الفرعي " image= {require("./assets/t30.jpg")}/>
-      </View> 
-      
+     
+      <Cards/>
       ); 
 }
  
-
-
   const styles = StyleSheet.create({
     container: {
       backgroundColor: "#f8f4ff",
@@ -40,4 +38,8 @@ export default function App() {
              {text: "لا", onPress:() => console.log("No")}, ])}/> 
           </View>
           )}
-          */        
+          
+
+         <View style={styles.container}>
+         <Cards title="العنوان الاول" subTitle="العنوان الفرعي " image= {require("./assets/t30.jpg")}/>
+         </View>  */
