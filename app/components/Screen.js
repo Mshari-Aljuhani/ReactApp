@@ -7,7 +7,13 @@ import Constants from 'expo-constants';
 };
 
 const styles = StyleSheet.create({
-    screen:{paddingTop:Constants.statusBarHeight, flex:1}
+    screen:{paddingTop:Constants.statusBarHeight, 
+            flex:1, 
+            backgroundColor:'#FFF9F3',
+            paddingHorizontal : 10,
+            
+        
+        }
 })
 
 export default Screen;
